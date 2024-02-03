@@ -77,7 +77,7 @@ game_info %>%
   mutate(
     total_games = sum(total_weather_events),
     .by = venue_name_wrap
-  )
+  ) %>%
   mutate(
     weather_perc = total_weather_events / total_games,
     weather_type = factor(
