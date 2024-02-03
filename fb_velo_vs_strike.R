@@ -1,3 +1,6 @@
+# this is the code to generate the graphic in this post:
+# https://twitter.com/Drew_Haugen/status/1691208636918329344
+
 #load libraries
 library(tidyverse)
 library(mlbplotR)
